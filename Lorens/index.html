@@ -7,10 +7,119 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>VCard de Loos</title>
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
-
+    <div class="vcard">
+        <div class="vcard__header"></div>
+        <div class="container">
+            <div class="vcard__content">
+                <div class="vcard__content__name">
+                    <img src="./img/lorens.png" alt="">
+                    <h2>_lorens</h2>
+                    <h3>co-founder</h3>
+                </div>
+            </div>
+            <div class="vcard__tabs">
+                <ul>
+                    <li class="active Tab description_tab">
+                        <button data-toggle-target=".box-1">Contacto</button>
+                    </li>
+                    <li class="Tab description_tab">
+                        <button data-toggle-target=".box-2">¿Porqué Lóos?</button>
+                    </li>
+                    <li class="Tab description_tab">
+                        <button data-toggle-target=".box-3">Sobre mi</button>
+                    </li>
+                    <li class="slider" role="presentation"></li>
+                </ul>
+                <div class="vcard__tabs__content">
+                    <div class="vcard__tabs__content__contact tab-content box-1 active">
+                        <div class="vcard__tabs__content__contact__numbers">
+                            <ul>
+                                <li>
+                                    <p>_llamar al</p>
+                                    <div class="phone-number">
+                                        <img src="./img/phone.png" alt="">
+                                        <a href="">982 437 428</a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <p>_escribir al Whatsapp</p>
+                                    <div class="phone-number">
+                                        <img src="./img/whatsapp.png" alt="">
+                                        <a href="">982 437 428</a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <p>_escribir al correo:</p>
+                                    <div class="phone-number">
+                                        <img src="./img/mail.png" alt="">
+                                        <a href="">loren.trabaja@gmail.com</a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="vcard__tabs__content__contact__share">
+                            <div class="phone-number">
+                                <button class="verformas">Ver formas de compartir tarjeta</button>
+                                <button class="vermenos">Ver menos formas de compartir</button>
+                                <img src="./img/down-arrow.png" alt="">
+                            </div>
+                            <div class="vcard__tabs__content__contact__share__forms">
+                                <a href="">WhatsApp</a>
+                                <a href="">Facebook</a>
+                                <a href="">LinkedIn</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="vcard__tabs__content__porque tab-content box-2">
+                        <p>Los <b>seres humanos</b> prestan cada vez más atención al mundo virtual como al real. Hoy en día no existe nadie que pueda comenzar un <i>negocio sin una computadora</i>, la necesidad de conectarse y comunicarse haciendo eficaces
+                            sus canales de comunicación digital.</p>
+                        <h2>_visitar sitio web</h2>
+                        <div class="web">
+                            <img src="./img/www.png" alt="">
+                            <a href="">loos.pe</a>
+                        </div>
+                    </div>
+                    <div class="vcard__tabs__content__sobre tab-content box-3">
+                        <h2>_perfil</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus voluptatum pariatur repellat praesentium, voluptate quis aspernatur ea ipsum dolor officia ad, aliquam sunt ex? Tempora fugiat porro accusamus praesentium quisquam!</p>
+                        <div class="vcard__tabs__content__sobre__social">
+                            <div class="vcard__tabs__content__sobre__social__box">
+                                <p>_instagram</p>
+                                <div class="vcard__tabs__content__sobre__social__box__media">
+                                    <img src="./img/instagram-sketched.png" alt="">
+                                    <a href="">@loreberroc</a>
+                                </div>
+                            </div>
+                            <div class="vcard__tabs__content__sobre__social__box">
+                                <p>_behance</p>
+                                <div class="vcard__tabs__content__sobre__social__box__media">
+                                    <img src="./img/behance.png" alt="">
+                                    <a href="">@loreberroc</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="vcard__footer hide-tablet-on-up">
+                <img src="./img/icon.jpg" alt="">
+                <h2>@lóos.pe</h2>
+            </div>
+        </div>
+    </div>
+    <div class="vcard-logo hide-mobile">
+        <a href="">@loos.pe</a>
+        <img src="./img/icon.jpg" alt="">
+    </div>
+    <div class="vcard-qr hide-mobile">
+        <img src="./img/Loosqr.png" alt="">
+    </div>
 </body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="./js/main.js"></script>
 
 </html>

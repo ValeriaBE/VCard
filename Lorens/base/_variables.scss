@@ -1,20 +1,15 @@
 // Variables
 //
-
 // Spacing
 //
-
-$spacer:                     1rem !default;
-$spacer-x:                   $spacer !default;
-$spacer-y:                   $spacer !default;
-$border-width:               .0625rem !default;
-
+$spacer: 1rem !default;
+$spacer-x: $spacer !default;
+$spacer-y: $spacer !default;
+$border-width: .0625rem !default;
 // Mobile Breakpoints
 $mobile-screen: 280px;
-$small-screen:  425px;
+$small-screen: 425px;
 $medium-screen: 1023px;
-
-
 @include media(mobile) {
     .hide-mobile {
         display: none !important;
@@ -22,19 +17,18 @@ $medium-screen: 1023px;
     .hide-tablet-on-down {
         display: none !important;
     }
-    .hide-tablet-on-up{
+    .hide-tablet-on-up {
         display: block!important;
     }
-    .only-desk{
+    .only-desk {
         display: none;
     }
-    .only-mob{
+    .only-mob {
         display: block;
     }
-  }
-  
-  @include media(tablet) {
-  
+}
+
+@include media(tablet) {
     .hide-tablet-on-up {
         display: none!important;
     }
@@ -42,19 +36,18 @@ $medium-screen: 1023px;
         display: none !important;
     }
     .hide-mobile {
-        display: block!important;
+        display: flex!important;
     }
-  
-  }
-  
-  @include media(desktop) {
+}
+
+@include media(desktop) {
     .hide-desktop {
         display: none !important;
     }
     .hide-tablet-on-down {
         display: block !important;
     }
-  }
+}
 
-  //Color Modal
+//Color Modal
 $overlay:rgba(73, 80, 102, 0.8);
