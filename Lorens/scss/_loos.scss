@@ -457,7 +457,8 @@
         }
     }
     &__footer {
-        position: absolute;
+        margin-top: 80px;
+        position: static;
         bottom: 20px;
         left: 0;
         width: 100%;
