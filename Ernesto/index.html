@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>VCard de Loos</title>
+    <link rel="stylesheet" href="../styles/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="psai">
+        <div class="psai__header">
+            <div class="psai__header__background">
+                <div class="hide-desktop">
+                    <img src="./img/bg-mobile.png" alt="">
+                </div>
+                <div class="hide-mobile">
+                    <img src="./img/bg-desktop.png" alt="">
+                </div>
+            </div>
+            <div class="container">
+                <div class="psai__header__text">
+                    <div class="psai__header__text__left">
+                        <div class="logo">
+                            <img src="./img/PSAI_logo.png" alt="">
+                        </div>
+                        <div class="psai__header__text__left__name">
+                            <h2>Ernesto Berrocal</h2>
+                        </div>
+                    </div>
+                    <div class="psai__header__text__right">
+                        <img src="./img/person.png" alt="" class="hide-desktop">
+                        <img src="./img/person-desktop.png" alt="" class="hide-tablet-on-down">
+                    </div>
+                </div>
+                <div class="line"></div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="desktop">
+                <div class="psai__content">
+                    <div class="psai__content__tabs">
+                        <ul class="psai__content__tabs__list">
+                            <li class="active"><a href="#contacto">Contacto</a></li>
+                            <li><a href="#porque">¿Porqué PSAI?</a></li>
+                            <li><a href="#sobre">Sobre mi</a></li>
+                        </ul>
+                    </div>
+                    <div class="psai__content__info">
+                        <div class="psai__content__info__text active" id="contacto">
+                            <ul>
+                                <li>
+                                    <h3>Celular:</h3>
+                                    <div class="icon">
+                                        <img src="./img/phone.png" alt="">
+                                        <a href="tel:967274600">967 274 600</a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <h3>Whatsapp:</h3>
+                                    <div class="icon">
+                                        <img src="./img/whatsapp.png" alt="">
+                                        <a href="https://api.whatsapp.com/send?phone=967274600&text=Hola%20Ernesto,%20gracias%20por%20compartir%20tu%20VCard">967 274 600</a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <h3>Correo:</h3>
+                                    <div class="icon">
+                                        <img src="./img/mail.png" alt="">
+                                        <a href="mailto:ernesto@psai.pe">ernesto@psai.pe</a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="psai__content__info__text hide" id="porque">
+                            <ul>
+                                <li>
+                                    <h3>Como <b>empresa proveedora</b> de servicios e insumos; nuestro compromiso central es <i>satisfacer las necesidades</i> y expectativas de nuestros clientes e Identificar oportunidades de mercado; ofreciendo soluciones
+                                        oportunas e integrales, convirtiéndonos en el socio estratégico de la Agroindustria.</h3>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="psai__content__info__text hide" id="sobre">
+                            <ul>
+                                <li>
+                                    <h3>23 años dedicados a la Salud Pública, control de plagas, inocuidad alimentaria y condicionantes para certificaciones. </h3>
+                                    <div class="icon">
+                                        <img src="./img/linkedin.png" alt="">
+                                        <a href="https://www.linkedin.com/in/ernesto-berrocal-38a8a752/">ernesto-berrocal</a>
+                                    </div>
+                                </li>
+                                <li class="web">
+                                    <div class="icon">
+                                        <img src="./img/internet.png" alt="">
+                                        <a href="http://psai.pe/">psai.pe</a>
+                                    </div>
+                                    <div class="icon">
+                                        <img src="./img/internet.png" alt="">
+                                        <a href="http://pleez.pe/">pleez.pe</a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="line hide-desktop"></div>
+                <div class="psai__share">
+                    <h2>Compartir tarjeta por</h2>
+                    <div class="psai__share__buttons">
+                        <a href="whatsapp://send?text=https://valeriabe.github.io/VCard/Ernesto/">Whatsapp</a>
+                        <a href="https://www.facebook.com/sharer/sharer.php?u=https://valeriabe.github.io/VCard/Ernesto/">Facebook</a>
+                        <a href="http://www.linkedin.com/shareArticle?mini=true&url=<?php the_permalink(); ?>&title=<?php the_title(); ?>&source=https://valeriabe.github.io/VCard/Ernesto/">LinkedIn</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="vcard-qr hide-mobile">
+        <img src="./img/psai-qr.png" alt="">
+    </div>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="./js/main.js"></script>
+
+</html>
