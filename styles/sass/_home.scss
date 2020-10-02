@@ -44,18 +44,6 @@
     }
 }
 
-
-/*-- 20. Blog-Post --*/
-
-
-/*-- 21. Pagination --*/
-
-
-/*-- 22. Comment-Respond --*/
-
-
-/*-- 23. Form-Stype --*/
-
 * {
     outline: none;
 }
@@ -110,6 +98,7 @@ img {
 }
 
 h1 {
+    font-family: 'Poppins', sans-serif;
     margin: 0 0 15px;
     font-weight: 400;
     line-height: 1.4em;
@@ -117,6 +106,7 @@ h1 {
 }
 
 h2 {
+    font-family: 'Poppins', sans-serif;
     margin: 0 0 15px;
     font-weight: 400;
     line-height: 1.4em;
@@ -124,6 +114,7 @@ h2 {
 }
 
 h3 {
+    font-family: 'Poppins', sans-serif;
     margin: 0 0 15px;
     font-weight: 400;
     line-height: 1.4em;
@@ -131,18 +122,21 @@ h3 {
 }
 
 h4 {
+    font-family: 'Poppins', sans-serif;
     margin: 0 0 15px;
     font-weight: 400;
     line-height: 1.4em;
 }
 
 h5 {
+    font-family: 'Poppins', sans-serif;
     margin: 0 0 15px;
     font-weight: 400;
     line-height: 1.4em;
 }
 
 h6 {
+    font-family: 'Poppins', sans-serif;
     margin: 0 0 15px;
     font-weight: 400;
     line-height: 1.4em;
@@ -154,7 +148,7 @@ html {
 
 body {
     height: 100%;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 32px;
@@ -307,10 +301,10 @@ body {
         top: 0;
         width: 100%;
         height: 100%;
-        background: rgb(72, 44, 191);
-        background: -webkit-linear-gradient(45deg, rgba(72, 44, 191, 1) 0%, rgba(106, 198, 240, 1) 100%);
-        background: -o-linear-gradient(45deg, rgba(72, 44, 191, 1) 0%, rgba(106, 198, 240, 1) 100%);
-        background: linear-gradient(45deg, rgba(72, 44, 191, 1) 0%, rgba(106, 198, 240, 1) 100%);
+        background: gray;
+        // background: -webkit-linear-gradient(45deg, rgba(72, 44, 191, 1) 0%, rgba(106, 198, 240, 1) 100%);
+        // background: -o-linear-gradient(45deg, rgba(72, 44, 191, 1) 0%, rgba(106, 198, 240, 1) 100%);
+        // background: linear-gradient(45deg, rgba(72, 44, 191, 1) 0%, rgba(106, 198, 240, 1) 100%);
         // filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#482cbf', endColorstr='#6ac6f0', GradientType=1);
         opacity: 0.8;
         z-index: -2;
@@ -352,9 +346,9 @@ body {
         width: 100%;
         height: 100%;
         background: rgb(72, 44, 191);
-        background: -webkit-linear-gradient(45deg, rgba(72, 44, 191, 1) 0%, rgba(106, 198, 240, 1) 100%);
-        background: -o-linear-gradient(45deg, rgba(72, 44, 191, 1) 0%, rgba(106, 198, 240, 1) 100%);
-        background: linear-gradient(45deg, rgba(72, 44, 191, 1) 0%, rgba(106, 198, 240, 1) 100%);
+        // background: -webkit-linear-gradient(45deg, rgba(72, 44, 191, 1) 0%, rgba(106, 198, 240, 1) 100%);
+        // background: -o-linear-gradient(45deg, rgba(72, 44, 191, 1) 0%, rgba(106, 198, 240, 1) 100%);
+        // background: linear-gradient(45deg, rgba(72, 44, 191, 1) 0%, rgba(106, 198, 240, 1) 100%);
         // filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#482cbf', endColorstr='#6ac6f0', GradientType=1);
         z-index: -1;
         opacity: 0;
@@ -1052,7 +1046,6 @@ body {
         background: -webkit-linear-gradient(45deg, rgba(72, 44, 191, 1) 0%, rgba(106, 198, 240, 1) 100%);
         background: -o-linear-gradient(45deg, rgba(72, 44, 191, 1) 0%, rgba(106, 198, 240, 1) 100%);
         background: linear-gradient(45deg, rgba(72, 44, 191, 1) 0%, rgba(106, 198, 240, 1) 100%);
-        // filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#482cbf', endColorstr='#6ac6f0', GradientType=1);
         border-radius: 100%;
         height: 60px;
         width: 60px;
